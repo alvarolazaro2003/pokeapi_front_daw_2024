@@ -109,9 +109,6 @@ describe("La vista de HomeView.vue" , () =>{
             return Promise.resolve({ json: () => Promise.resolve(mockDetail[id]) });
         });
 
-        // global.fetch=vi.fn().mockResolvedValue({
-        //     json:() => Promise.resolve(mockData)
-        // })
 
         const wrapper = mount(Home, {
         global: {
@@ -164,9 +161,7 @@ describe("La vista de HomeView.vue" , () =>{
             return Promise.resolve({ json: () => Promise.resolve(mockDetail[id]) });
         });
 
-        // global.fetch=vi.fn().mockResolvedValue({
-        //     json:() => Promise.resolve(mockData)
-        // })
+        
 
         const wrapper = mount(Home, {
         global: {
