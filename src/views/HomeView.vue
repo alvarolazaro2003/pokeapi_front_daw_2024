@@ -7,7 +7,7 @@
         v-for="pokemon in pokemonList"
         :key="pokemon.id"
         :name="pokemon.name"
-        :number="pokemon.id"
+        :number="pokemon.id" 
         :img="pokemon.img"
         :to="`/pokemon/${pokemon.id}`"
       />
